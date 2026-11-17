@@ -132,7 +132,7 @@ export function SourcesSection() {
         <div className="source-list">{sources.map((source) => <a key={source.name} href={source.href} target="_blank" rel="noreferrer"><strong>{source.name}</strong><span>{source.detail}</span><span className="source-arrow" aria-hidden="true">↗</span></a>)}</div>
         <p className="footer-note">Conteúdo educativo. O mapa mostra detecções de satélite do INPE; elas não medem diretamente a área queimada nem confirmam, por si só, um incêndio ativo. As cenas ilustradas e o modelo da teia alimentar são didáticos.</p>
         <a className="top-link" href="#inicio"><SunMark /> Voltar ao começo</a>
-        <p className="copyright">EQUIPE CAATINGA · HEITOR</p>
+        <p className="copyright">EQUIPE CAATINGA</p>
       </div>
     </footer>
   )
