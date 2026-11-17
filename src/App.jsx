@@ -61,7 +61,7 @@ function App() {
             <h1 id="hero-title"><span className="hero-line">A Caatinga</span><br />não se <em>apaga.</em></h1>
             <p className="hero-description">Plataforma sobre o impacto das queimadas nos biomas brasileiros e o papel da tecnologia na recuperação sustentável: cadeia e teia alimentar, fluxo de energia, sucessão ecológica, ciclos biogeoquímicos e a evolução dos dados da Caatinga.</p>
             <a className="hero-cta" href="#panorama">COMEÇAR <span aria-hidden="true">↓</span></a>
-            <div className="hero-edition">EQUIPE CAATINGA <span>·</span> </div>
+            <div className="hero-edition">EQUIPE CAATINGA <span>·</span> HEITOR</div>
           </div>
           <div className="hero-illustration" aria-label="Ilustração de mandacaru, sol e carcará na paisagem da Caatinga" role="img">
             <svg viewBox="0 0 640 610" aria-hidden="true">
@@ -90,11 +90,11 @@ function App() {
             <p>Nas próximas seções, cada tópico do trabalho é respondido para a Caatinga: primeiro a cadeia e a teia alimentar, depois o fluxo de energia, a sucessão ecológica, os ciclos biogeoquímicos e os dados.</p>
           </div>
           <div className="stat-row panorama-stats">
-            <div className="stat"><strong>11,4 mi ha</strong><span>queimados entre 1985 e 2024</span></div>
+            <div className="stat"><strong>11,4 milhões</strong><span>queimados entre 1985 e 2024</span></div>
             <div className="stat"><strong>77%</strong><span>do volume anual médio queima de setembro a novembro</span></div>
             <div className="stat"><strong>78%</strong><span>das queimas atingem a formação savânica (caatinga arbórea e arbustiva)</span></div>
             <div className="stat"><strong>62%</strong><span>da área queimada pegou fogo uma única vez em 40 anos</span></div>
-            <div className="stat"><strong>404 mil ha</strong><span>queimados em 2024, 16% menos que em 2023</span></div>
+            <div className="stat"><strong>404 milhões</strong><span>queimados em 2024, 16% menos que em 2023</span></div>
           </div>
           <p className="stat-source">Fonte: MapBiomas, Caatinga Coleção 10 (1985–2024).</p>
           <ol className="topic-index" aria-label="Tópicos do trabalho">
