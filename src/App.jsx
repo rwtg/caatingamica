@@ -61,7 +61,7 @@ function App() {
             <h1 id="hero-title"><span className="hero-line">A Caatinga</span><br />não se <em>apaga.</em></h1>
             <p className="hero-description">Plataforma sobre o impacto das queimadas nos biomas brasileiros e o papel da tecnologia na recuperação sustentável: cadeia e teia alimentar, fluxo de energia, sucessão ecológica, ciclos biogeoquímicos e a evolução dos dados da Caatinga.</p>
             <a className="hero-cta" href="#panorama">COMEÇAR <span aria-hidden="true">↓</span></a>
-            <div className="hero-edition">EQUIPE CAATINGA <span>·</span> HEITOR</div>
+            <div className="hero-edition">EQUIPE CAATINGA <span>·</span> </div>
           </div>
           <div className="hero-illustration" aria-label="Ilustração de mandacaru, sol e carcará na paisagem da Caatinga" role="img">
             <svg viewBox="0 0 640 610" aria-hidden="true">
