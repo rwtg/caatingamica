@@ -1,0 +1,33 @@
+{
+  "levels": [
+    { "id": 0, "name": "Produtores", "short": "Produtor" },
+    { "id": 1, "name": "Consumidores primários", "short": "Consumidor 1º" },
+    { "id": 2, "name": "Consumidores secundários", "short": "Consumidor 2º" },
+    { "id": 3, "name": "Predadores de topo", "short": "Consumidor 3º" }
+  ],
+  "nodes": [
+    { "id": "capim", "name": "Gramíneas e ervas", "level": 0, "eats": [], "sens": 0.55, "role": "Cobrem o solo na estação chuvosa e produzem sementes que ficam no solo.", "fire": "O fogo consome toda a parte aérea, mas as sementes no solo e as raízes permitem rebrota rápida com a primeira chuva." },
+    { "id": "cacto", "name": "Mandacaru e xique-xique", "level": 0, "eats": [], "sens": 0.9, "role": "Armazenam água e servem de alimento e abrigo na seca.", "fire": "Cactos têm tecidos suculentos e rebrotam pouco depois do fogo; a perda é demorada de repor e afeta quem depende deles na estiagem." },
+    { "id": "umbu", "name": "Umbuzeiro e árvores nativas", "level": 0, "eats": [], "sens": 0.7, "role": "Fornecem folhas, frutos, sombra e abrigo.", "fire": "Parte rebrota pela base, mas folhas e frutos do ciclo são perdidos, e o fogo repetido enfraquece as plantas." },
+    { "id": "gafanhoto", "name": "Gafanhotos e insetos herbívoros", "level": 1, "eats": ["capim"], "sens": 0.5, "role": "Convertem a energia do capim em biomassa de inseto.", "fire": "Morrem com o fogo e perdem o alimento; voltam rápido quando a vegetação herbácea rebrota." },
+    { "id": "prea", "name": "Preá", "level": 1, "eats": ["capim", "umbu"], "sens": 0.5, "role": "Roedor que come ervas, folhas e frutos.", "fire": "Perde abrigo e alimento; na exposição pós-fogo vira presa fácil de predadores." },
+    { "id": "moco", "name": "Mocó", "level": 1, "eats": ["cacto", "capim"], "sens": 0.45, "role": "Roedor de afloramentos rochosos que come folhas e cactos.", "fire": "Pode se abrigar nas rochas, mas perde cactos e plantas de que depende na seca." },
+    { "id": "veado", "name": "Veado-catingueiro", "level": 1, "eats": ["umbu", "capim"], "sens": 0.3, "role": "Herbívoro que come folhas, brotos e frutos.", "fire": "Foge do fogo, mas fica sem alimento e abrigo e precisa de áreas maiores para se manter." },
+    { "id": "calango", "name": "Calango", "level": 2, "eats": ["gafanhoto"], "sens": 0.55, "role": "Lagarto que controla populações de insetos.", "fire": "Pouco móvel, morre ou perde esconderijos; sem insetos, a recuperação demora." },
+    { "id": "teiu", "name": "Teiú", "level": 2, "eats": ["gafanhoto", "calango"], "sens": 0.4, "role": "Lagarto grande, onívoro, que come insetos, lagartos e ovos.", "fire": "Escava tocas e escapa com mais facilidade, mas perde fontes de alimento." },
+    { "id": "seriema", "name": "Seriema", "level": 3, "eats": ["calango", "gafanhoto", "prea"], "sens": 0.25, "role": "Ave que caça lagartos, insetos, serpentes pequenas e roedores.", "fire": "Foge, mas ninhos no solo e arbustos são perdidos e as presas diminuem." },
+    { "id": "carcara", "name": "Carcará", "level": 3, "eats": ["calango", "prea"], "sens": 0.2, "role": "Ave oportunista, também aproveita animais mortos.", "fire": "Muito móvel e oportunista: pode até se beneficiar de presas expostas no curto prazo, mas perde ninhos e território." },
+    { "id": "cascavel", "name": "Cascavel", "level": 3, "eats": ["prea", "moco", "calango"], "sens": 0.5, "role": "Serpente que controla roedores e lagartos.", "fire": "Rasteja devagar, muitas morrem ou ficam expostas sem abrigo; presas escassas depois." },
+    { "id": "onca", "name": "Onça-parda", "level": 3, "eats": ["veado", "moco", "prea"], "sens": 0.25, "role": "Predador de topo que regula herbívoros médios.", "fire": "Foge do fogo, mas depende de grandes áreas com presas; a perda de veados e mocós reduz seu alimento." }
+  ],
+  "chains": [
+    { "id": "a", "title": "Cadeia do capim", "path": ["capim", "gafanhoto", "calango", "seriema"] },
+    { "id": "b", "title": "Cadeia dos cactos", "path": ["cacto", "moco", "onca"] },
+    { "id": "c", "title": "Cadeia da vegetação lenhosa", "path": ["umbu", "veado", "onca"] }
+  ],
+  "decomposers": {
+    "name": "Decompositores",
+    "text": "Fungos, bactérias e cupins reciclam folhas, fezes e carcaças e devolvem nutrientes ao solo.",
+    "fire": "Em área queimada da Caatinga, o carbono da biomassa microbiana foi 45% menor que o da mata (135,9 contra 247,7 mg/kg; Nunes et al., 2009), o que reduz a ciclagem de nutrientes."
+  }
+}

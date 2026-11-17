@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#e8d6aa"/><rect x="24" y="24" width="1152" height="582" fill="none" stroke="#211b16" stroke-width="4"/><rect x="38" y="38" width="1124" height="554" fill="none" stroke="#211b16" stroke-width="1"/>
+  <circle cx="933" cy="176" r="77" fill="#a3422b" stroke="#211b16" stroke-width="8"/>
+  <path d="M0 400q150-90 310 0t300-10 290 0 300 0v230H0Z" fill="#68745a" stroke="#211b16" stroke-width="9"/>
+  <path d="M0 492q130-80 270 0t270 0 270 0 390 0v138H0Z" fill="#563a2a" stroke="#211b16" stroke-width="9"/>
+  <path d="M794 501V262m0 109h-55v-74m0 39h35m20-21h52v-72m0 41h-34m-82 217h119" fill="none" stroke="#f2e6c8" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="84" y="130" fill="#a3422b" font-family="Georgia,serif" font-size="25" letter-spacing="8">GUIA INTERATIVO · SERTÃO BRASILEIRO</text>
+  <text x="80" y="282" fill="#211b16" font-family="Georgia,serif" font-weight="900" font-size="102">A CAATINGA</text>
+  <text x="80" y="390" fill="#a3422b" font-family="Georgia,serif" font-weight="900" font-size="102">NÃO SE APAGA.</text>
+  <path d="M85 454h490m-490 17h350" stroke="#f2e6c8" stroke-width="4"/>
+</svg>

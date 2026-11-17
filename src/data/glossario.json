@@ -1,0 +1,42 @@
+[
+  {
+    "term": "Nível trófico",
+    "definition": "Posição de um organismo na cadeia alimentar: produtor, consumidor primário, secundário, terciário ou decompositor."
+  },
+  {
+    "term": "Teia alimentar",
+    "definition": "Conjunto de cadeias alimentares interligadas, em que uma espécie pode ocupar mais de um nível."
+  },
+  {
+    "term": "Fluxo de energia",
+    "definition": "Passagem de energia dos produtores para os consumidores. Em cada nível, boa parte se perde como calor."
+  },
+  {
+    "term": "Sucessão secundária",
+    "definition": "Recolonização de uma área onde o solo e parte da vida foram preservados, como após um incêndio."
+  },
+  {
+    "term": "Sucessão primária",
+    "definition": "Colonização de um substrato sem solo nem vida, como rocha nua, que forma o solo ao longo de séculos."
+  },
+  {
+    "term": "Banco de sementes",
+    "definition": "Sementes dormentes no solo que permitem a regeneração da vegetação depois de uma perturbação."
+  },
+  {
+    "term": "Ciclo biogeoquímico",
+    "definition": "Circulação de elementos, como carbono, água e nitrogênio, entre seres vivos, solo, água e atmosfera."
+  },
+  {
+    "term": "Foco de calor",
+    "definition": "Ponto detectado por satélite com temperatura elevada. Indica fogo, mas não mede a área queimada."
+  },
+  {
+    "term": "FRP",
+    "definition": "Potência radiativa do fogo (em megawatts): estima a intensidade da queima detectada pelo satélite."
+  },
+  {
+    "term": "Biomassa microbiana",
+    "definition": "Quantidade de microrganismos vivos do solo, que decompõem a matéria orgânica e reciclam nutrientes."
+  }
+]

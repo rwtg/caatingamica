@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Em uma cadeia alimentar da Caatinga, qual é o papel do capim e do mandacaru?",
+    "options": [
+      "Consumidores primários",
+      "Produtores: fazem fotossíntese e iniciam o fluxo de energia",
+      "Decompositores"
+    ],
+    "answer": 1,
+    "explanation": "Produtores transformam luz em energia química; é dessa base que depende todo o resto da cadeia."
+  },
+  {
+    "question": "Por que o fogo atinge toda a teia alimentar, mesmo os predadores de topo?",
+    "options": [
+      "Porque os predadores comem cinzas",
+      "Porque a perda dos produtores e dos herbívoros reduz o alimento em cascata",
+      "Porque o fogo só mata predadores"
+    ],
+    "answer": 1,
+    "explanation": "A base é atingida primeiro; com menos presas, cada nível acima recebe menos energia."
+  },
+  {
+    "question": "Qual é, em média, a fração de energia que passa de um nível trófico ao seguinte?",
+    "options": [
+      "Cerca de 90%",
+      "Cerca de 50%",
+      "Cerca de 10%"
+    ],
+    "answer": 2,
+    "explanation": "A chamada regra dos 10%: o restante é perdido como calor e em processos metabólicos."
+  },
+  {
+    "question": "A recuperação da Caatinga queimada é um caso de sucessão…",
+    "options": [
+      "Primária, porque começa do zero",
+      "Secundária, porque o solo, as raízes e as sementes permanecem",
+      "Nenhuma: a Caatinga não se recupera"
+    ],
+    "answer": 1,
+    "explanation": "Na sucessão secundária o solo e o banco de sementes persistem, por isso o processo é mais rápido que o da primária."
+  },
+  {
+    "question": "Qual fator mais impede que a vegetação avance pelos estágios da sucessão?",
+    "options": [
+      "Fogo recorrente",
+      "Chuva leve",
+      "Sombra de árvores"
+    ],
+    "answer": 0,
+    "explanation": "Cada novo fogo reinicia o processo e consome o banco de sementes e a rebrota."
+  },
+  {
+    "question": "Na área queimada de Sobral (CE), qual indicador do solo caiu mais em relação à mata?",
+    "options": [
+      "pH",
+      "Biomassa microbiana (cerca de 45% menor)",
+      "Cálcio"
+    ],
+    "answer": 1,
+    "explanation": "O pH e o cálcio subiram com a cinza; o carbono da biomassa microbiana caiu e mostrou o estresse do solo."
+  }
+]

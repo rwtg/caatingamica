@@ -1,0 +1,17 @@
+:root {
+  /* Design tokens: edit these first to tune the cordel print palette and rhythm. */
+  --paper: #f2e6c8;
+  --paper-deep: #e8d6aa;
+  --ink: #211b16;
+  --terracotta: #a3422b;
+  --ochre: #c28b28;
+  --sage: #68745a;
+  --earth: #563a2a;
+  --muted-ink: #5a4839;
+  --rule: rgba(33, 27, 22, .45);
+  --display: 'Alfa Slab One', 'Rockwell', Georgia, serif; /* troque aqui a fonte dos títulos */
+  --body: 'Lora', Georgia, serif;
+  --page-gutter: clamp(1.1rem, 5vw, 5.5rem);
+  --section-space: clamp(4.5rem, 9vw, 8.5rem);
+  --grain: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E");
+}

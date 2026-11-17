@@ -1,0 +1,33 @@
+{
+  "serieFocos": [
+    { "ano": 2010, "valor": 21800, "tipo": "publicado", "nota": "21,8 mil focos (INPE/BDQueimadas, citado pela Folhapress)" },
+    { "ano": 2022, "valor": 15500, "tipo": "derivado", "nota": "Derivado: 2023 foi 39% maior que 2022 (21,5 mil ÷ 1,39)" },
+    { "ano": 2023, "valor": 21500, "tipo": "publicado", "nota": "Mais de 21,5 mil focos (INPE/BDQueimadas)" }
+  ],
+  "areaQueimada": [
+    { "ano": 2023, "valor": 481, "tipo": "derivado", "nota": "Derivado: 404 mil ha em 2024 foi 16% menor que 2023" },
+    { "ano": 2024, "valor": 404, "tipo": "publicado", "nota": "404 mil ha (MapBiomas Fogo)" }
+  ],
+  "vegSecundaria": [
+    { "label": "1985–1994", "value": 1.04 },
+    { "label": "1995–2004", "value": 2.39 },
+    { "label": "2005–2014", "value": 3.31 },
+    { "label": "2015–2024", "value": 1.59 }
+  ],
+  "usoDaTerra": [
+    { "label": "Natural 1985", "value": 62.15, "cor": "sage" },
+    { "label": "Natural 2024", "value": 52.9, "cor": "sage" },
+    { "label": "Antrópico 1985", "value": 23.9, "cor": "ochre" },
+    { "label": "Antrópico 2024", "value": 32.7, "cor": "ochre" }
+  ],
+  "carbono": [
+    { "label": "Brasil, 2024 (até 23/set)", "value": 183 },
+    { "label": "Brasil, só setembro", "value": 65 },
+    { "label": "Amazonas", "value": 28 },
+    { "label": "Mato Grosso do Sul", "value": 15 }
+  ],
+  "solo": {
+    "cot": [{ "label": "Mata (~50 anos)", "value": 18.72 }, { "label": "Área queimada", "value": 16.86 }],
+    "cbm": [{ "label": "Mata (~50 anos)", "value": 247.7 }, { "label": "Área queimada", "value": 135.9 }]
+  }
+}
